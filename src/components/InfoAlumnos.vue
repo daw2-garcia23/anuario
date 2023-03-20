@@ -2,7 +2,7 @@
     <div class="row bg-success ">
               <div class="col-12 d-flex justify-content-center bg-success">
                 <div class="card mt-5 w-25">
-                  <img class="imagenCard imagenDetalle" :src='"/public/img/" + persona.foto' alt="Card image cap">
+                  <img class="imagenCard imagenDetalle" :src='"../../public/img/" + persona.foto' alt="Card image cap">
                   <div class="card-body h-50">
                     <div class="row">
                       <div class="col-6">
